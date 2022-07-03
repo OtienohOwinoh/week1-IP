@@ -1,16 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Oleo script sans-serif;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li{
-    display: inline;
-    float: left;
-}
+
 a{
     display: block;
     padding: 20px;
@@ -80,6 +78,9 @@ h1{
     font-size: 20px;
 
 }
+.chooseus{
+    padding-left: 0%;
+}
 .Image1{
 display: block;
 margin-left: auto;
@@ -87,6 +88,14 @@ margin-right: auto;
 width: 30%;
 height: 20%;
 }
+.top-section{
+    display: inline-block;
+    vertical-align: top;
+}
+.text{
+    display: inline-block;
+}
+
 h2{
 
     color: #2549D3;
@@ -122,23 +131,51 @@ h3{
     font-size: 25px;
     padding: 0.5%;
 }
-.address{
- display: block;
- height: 3%;
- width: 3%;
+
+.FindHome{
+    margin: 0%;
+    padding: 14px, 16px;
+    text-align: center;
+
 }
-.Smart{
+.image4{
+    float: left;
+    padding: 20px;
     display: block;
-    height: 3%;
-    width: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+  
+
 }
-.image2{
-    display: block;
-    height: 3%;
-    width: 2.5%;
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    }
+.featuredproperties{
+    text-align: center;
+
+
 }
-.secure{
-    display: block;
-    height: 3%;
-    width: 2.5%;
+.clientsfeedback{
+    text-align: center;
+}
+.Alexgodwin{
+    float: left;
+    width: 33.33%;
+    font-family: Oleo script sans-serif;
+}
+.secondrow::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.Alex{
+    text-align: left;
+}
+.Footer{
+    flex-direction:column;
+}
+.Vallies{
+    flex-direction: column;
 }
